@@ -1,0 +1,117 @@
+/*Universal Settings*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+/*Header-Navigation*/
+header {
+    background-color: #333333;
+    position: relative;
+    width: 100%;
+    z-index: 5;   
+}
+
+header nav {
+    padding: 20px 0px;
+    margin: 0px;    
+}
+
+header nav ul li {
+    color: #fff;
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Main*/
+main {
+    background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    border: solid 0.01px black;
+}
+
+.tittle{
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.tittle p a{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #333;
+    color: #fff;
+    margin: 20px;
+    padding: 15px 30px;
+}
+
+.tittle p a:hover{
+    background-color: gray;
+    border: 1px solid gray;
+    color: #FFF;
+}
+
+/*Container*/
+section {
+    padding-bottom: 50px;
+}
+
+section .container_services {
+    text-align: center;
+}
+
+section .container_services .service {
+    margin: 10px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+section .container_services .service p a{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #333333;
+    border: solid  #333333 2px;
+}
+
+section .container_services .service p a:hover{
+    color: white;
+    background-color: gray;
+    border: solid  #333333 2px;
+}
+
+/*Footer*/
+footer {
+    text-transform: uppercase;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Images*/
+img {
+    height: 32px;
+    /*border: solid black 2px;*/   
+}
